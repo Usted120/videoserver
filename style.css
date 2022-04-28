@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
 .nada {
 	color: #1c1b1d;
 	color: #373940;
@@ -12,9 +13,11 @@
 	padding: 0;
 	box-sizing: border-box;
 	list-style: none;
-	
+		
 }
-
+body{
+	font-family: 'Noto Sans',sans-serif;
+}
 :root {
 	font-size: 16px;
 }
