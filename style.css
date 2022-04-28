@@ -1,0 +1,131 @@
+.nada {
+	color: #1c1b1d;
+	color: #373940;
+	color: #505b65;
+	color: #67808a;
+	color: #a3cfc6;
+	color:#81a7aa ;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	list-style: none;
+	
+}
+
+:root {
+	font-size: 16px;
+}
+
+html {
+	background-image: url(./resources/background.png);
+	background-repeat: repeat;
+	font-family: "Times New Roman", Times, serif;
+	color: aliceblue;
+}
+.contenedor{
+	margin: 0 auto;
+}
+
+.container{
+	display: grid;
+}
+.flex {
+	display: flex;
+}
+.logo {
+	font-size: 1.2rem;
+	margin-left: 0rem;
+	padding: 0 0.5rem;
+	text-align: center;
+}
+.logo:hover {
+	background-color: #a3cfc6;
+}
+.menu li {
+	padding: 0 0.5rem;
+}
+.menu li:hover {
+	background-color: #a3cfc6;
+}
+main {
+	margin: 0 auto;
+}
+main,
+footer {
+	background-color: #4f5a6499;
+	margin-top: 0rem;
+	padding: 0.3rem;
+}
+
+
+
+
+a {
+	text-decoration: none;
+	color: aliceblue;
+}
+.nav {
+	width: 100%;
+	justify-content: space-between;
+	align-items: center;
+	padding: 0.25rem 0;
+	border-bottom: solid 1px #81a7aa;
+}
+
+
+footer {
+	width: 100% !important; 
+	position: absolute;
+	margin-bottom:0;
+	margin-left: auto;
+	margin-right: auto;
+}
+.gridMoviesCard{
+	flex-direction: column;	
+	margin: 0;
+	padding: 1.8rem 1.5rem;
+	border: solid 2px #a3cfc6;
+	background: #4f5a64c0;
+	height: 260px;
+	
+}
+.gridMoviesCard h2:hover{
+background-color: #a3cfc6;
+}
+.gridMovies{
+	grid-auto-flow: row;
+	grid-template-columns: repeat(4,22%);
+	margin: 0 auto;
+	gap: 3%;
+}
+.info {
+	display: block;
+	padding: 0.3rem 0 0.3rem 0.3rem;
+}
+.contact {
+	justify-content: space-between;
+}
+.contact li {
+	font-size: 1.1rem;
+	width: 25%;
+	text-align: center;
+	padding: 0 0.25rem;
+}
+.contact li:hover {
+	background-color: #a3cfc6;
+}
+@media only screen and (min-width: 400px) {
+	main,
+	footer {
+		width: 100%;
+	}
+}
+@media screen and (min-width: 1230px) {
+	main,
+	footer {
+		width: 85%;
+	}
+}
